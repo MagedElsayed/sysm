@@ -1,0 +1,82 @@
+{
+    "ERRORS" : {
+        "ERR_DBC": {
+            "code": 100,
+            "msg": {
+                "ENG": "Couldn't establish database connection."
+            }
+        },
+        "ERR_SRV": {
+            "code": 101,
+            "msg": {
+                "ENG": "Couldn't start server."
+            }
+        },
+        "ERR_WRONG": {
+            "code": 102,
+            "msg": {
+                "ENG": "Something went wrong. please try again later.",
+                "AR": "حدث خطأ ما, بالرجاء حاول مرة أخرة بعد قليل."
+            }
+        },
+        "ERR_NOTFOUND": {
+            "code": 103,
+            "msg": {
+                "ENG": "Resource not found.",
+                "AR": "لم نجد العنصر الذى تبحث عنه."
+            }            
+            }
+        },
+        "ERR_USR": {
+            "NOT_FOUND": {
+                "code": 200,
+                "msg" : {
+                    "ENG": "User not found",
+                    "AR": "لم يتم ايجاد المستخدم"
+                }
+            },
+            "NOT_AUTHENTICATED": {
+                "code": 201,
+                "msg": {
+                    "ENG": "User not authenticated, Incorrect username or password.",
+                    "AR": "المستخدم غير موثق, قد أسم المستخد او كلمة المرور غير صحيحة"
+                }
+            },
+            "NOT_AUTHORIZED": {
+                "code": 202,
+                "msg": {
+                    "ENG": "User is not authorized to do this action.",
+                    "AR": "المستخد غير مصرح له لأتخاذ هذا الفعل."
+                }
+            },
+            "NO_ACTIVATION_KEY": {
+                "code": 203,
+                "msg": {
+                    "ENG": "User has no activation key.",
+                    "AR": "المستخدم ﻻ يملك مفتاح تفعيل."
+                }
+            },
+            "ACTIVATION_KEY_EXPIRED": {
+                "code": 204,
+                "msg": {
+                    "ENG": "Activation key expired.",
+                    "AR": "مفتاح التفعيل منتهى الصﻻحية."
+                }
+            },
+            "ACTIVATION_KEY_NOT_MATCHED": {
+                "code": 205,
+                "msg": {
+                    "ENG": "No activation code matched.",
+                    "AR": "ﻻ يوجد مفتاح تفعيل مطابق."
+                }
+            },
+            "CANT_ACTIVATE": {
+                "code": 206,
+                "msg": {
+                    "ENG": "Can't activate this user.",
+                    "AR": "خطأ فى تفعيل هذا المستخدم."
+                }
+            }
+            
+    }
+}
